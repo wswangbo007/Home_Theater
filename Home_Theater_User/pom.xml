@@ -160,7 +160,6 @@
 			<type>jar</type>
 		</dependency>
 
-
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -272,15 +271,15 @@
 					<target>1.7</target>
 				</configuration>
 			</plugin>
-			
+
 			<!-- web.xml -->
-			<plugin>  
-                <groupId>org.apache.maven.plugins</groupId>  
-                <artifactId>maven-war-plugin</artifactId>  
-                <configuration>  
-                    <failOnMissingWebXml>false</failOnMissingWebXml>  
-                </configuration>  
-            </plugin>  
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
 		</plugins>
 		<finalName>Home_Theater_User</finalName>
 	</build>
