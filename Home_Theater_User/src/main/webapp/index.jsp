@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div>
-		
+		 <%=request.getContextPath()%>
 	</div>
 </body>
 </html>
