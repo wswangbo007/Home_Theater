@@ -12,6 +12,8 @@
 
 	<!-- 注解的类所在package(约定所有controller只在该package中) -->
 	<context:component-scan base-package="com.wb.web" />
+	
+	<mvc:default-servlet-handler />
 
 	<!-- 注解请求映射 -->
 	<bean
@@ -41,8 +43,6 @@
 
 	<!-- 访问静态资源 -->
 <!-- 	<mvc:resources mapping="/static/**" location="/static/" /> -->
-
-	<mvc:default-servlet-handler />
 
 	<!-- JSP的配置文件路径 -->
 	<bean id="jspViewResolver"
